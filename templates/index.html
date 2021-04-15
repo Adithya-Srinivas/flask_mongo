@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search the documents</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+   <h1> Enter the input to search </h1>
+   <h2>
+   <form method="post" action="/submitform">
+       Search:<input type="text" name="input"><br>
+       <input type="submit">
+   </form>
+       </h2>
+</body>
+</html>
